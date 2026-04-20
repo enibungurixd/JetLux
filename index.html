@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JetLux — Private Jet Charter & Rental | Fly in Pure Luxury</title>
+  <meta name="description" content="JetLux offers premium private jet charter and rental services worldwide. Experience unmatched luxury, flexibility, and 24/7 concierge service. Request a quote today." />
+  <meta name="keywords" content="private jet charter, private jet rental, luxury aviation, private jet hire, empty leg flights, corporate jet, JetLux" />
+  <link rel="canonical" href="https://www.jetlux.al/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="JetLux — Private Jet Charter & Rental" />
+  <meta property="og:description" content="Premium private jet charter worldwide. 24/7 concierge, global destinations, unmatched luxury." />
+  <meta property="og:url" content="https://www.jetlux.al/" />
+  <meta property="og:image" content="https://www.jetlux.al/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="JetLux — Private Jet Charter & Rental" />
+  <meta name="twitter:description" content="Premium private jet charter worldwide. 24/7 concierge, global destinations, unmatched luxury." />
+
+  <!-- Schema.org: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JetLux",
+    "url": "https://www.jetlux.al",
+    "logo": "https://www.jetlux.al/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+355 69 123 4567",
+      "contactType": "customer service",
+      "availableLanguage": ["English"]
+    },
+    "sameAs": [
+      "https://www.instagram.com/jetlux",
+      "https://www.linkedin.com/company/jetlux"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to charter a private jet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Private jet charter costs vary based on aircraft type, distance, and availability. Light jets start from $3,000/hr, midsize jets from $5,000/hr, and heavy jets from $9,000/hr. Contact JetLux for a custom quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How far in advance do I need to book a private jet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JetLux can arrange a private jet charter with as little as 4 hours notice, depending on availability. For popular routes and peak seasons, we recommend booking 48–72 hours in advance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are empty leg flights?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Empty leg flights are repositioning flights with no passengers booked. JetLux offers these at up to 75% off standard charter rates, making private aviation more accessible."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which destinations does JetLux fly to?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JetLux operates globally, covering over 40,000 airports worldwide. Popular routes include New York to Miami, London to Dubai, Los Angeles to Las Vegas, and Paris to Monaco."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is JetLux safe and certified?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. JetLux exclusively works with FAA and EASA-certified operators. All aircraft undergo rigorous safety inspections and our pilots meet the highest international standards."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #C9A84C;
+      --gold-light: #E8C97A;
+      --gold-pale: #F5E6C0;
+      --obsidian: #050505;
+      --deep: #0B0B0B;
+      --charcoal: #141414;
+      --surface: #1A1A1A;
+      --surface2: #222222;
+      --muted: #888;
+      --text: #E8E0D0;
+      --text-dim: #9A927E;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--obsidian);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    
+      padding-top: 72px;
+    }
+
+    /* --- NAV --- */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 6vw;
+      height: 72px;
+      background: linear-gradient(to bottom, rgba(5,5,5,0.97) 0%, rgba(5,5,5,0) 100%);
+      border-bottom: 0.5px solid rgba(201,168,76,0.15);
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--gold);
+      letter-spacing: 0.12em;
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--text); font-weight: 300; }
+    .nav-links { display: flex; gap: 36px; align-items: center; }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-dim);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold) !important;
+      padding: 8px 22px;
+      font-size: 10px !important;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.25s;
+    }
+    .nav-cta:hover { background: var(--gold) !important; color: var(--obsidian) !important; }
+
+    /* --- HERO --- */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      padding: 0 6vw 10vh;
+      position: relative;
+      background: var(--obsidian);
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 40%, rgba(201,168,76,0.06) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 80% at 90% 80%, rgba(201,168,76,0.04) 0%, transparent 60%);
+    }
+    .hero-line {
+      position: absolute; top: 0; left: 6vw; right: 6vw; height: 1px;
+      background: linear-gradient(to right, transparent, rgba(201,168,76,0.4), transparent);
+      top: 72px;
+    }
+    /* SVG jet silhouette */
+    .hero-jet {
+      position: absolute; right: 4vw; top: 50%; transform: translateY(-54%);
+      width: 54vw; max-width: 760px; opacity: 0.13; z-index: 0;
+      pointer-events: none;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 700px; }
+    .hero-label {
+      font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500; margin-bottom: 24px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .hero-label::before {
+      content: ''; display: block; width: 32px; height: 1px;
+      background: var(--gold);
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(52px, 7vw, 92px);
+      font-weight: 300;
+      line-height: 1.05;
+      color: #fff;
+      margin-bottom: 28px;
+    }
+    h1 em { color: var(--gold); font-style: italic; }
+    .hero-sub {
+      font-size: 14px; color: var(--text-dim); max-width: 480px;
+      font-weight: 300; letter-spacing: 0.03em; margin-bottom: 44px;
+    }
+    .hero-actions { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--gold);
+      color: var(--obsidian);
+      border: none;
+      padding: 16px 38px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px; font-weight: 600;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      cursor: pointer; text-decoration: none;
+      display: inline-block;
+      transition: all 0.25s;
+    }
+    .btn-primary:hover { background: var(--gold-light); }
+    .btn-ghost {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 16px 38px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px; font-weight: 500;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      cursor: pointer; text-decoration: none;
+      display: inline-block;
+      transition: all 0.25s;
+    }
+    .btn-ghost:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* --- TRUST BAR --- */
+    .trust-bar {
+      background: var(--surface);
+      border-top: 1px solid rgba(201,168,76,0.2);
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+      padding: 28px 6vw;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+    .trust-item {
+      text-align: center;
+      padding: 0 20px;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .trust-item:last-child { border-right: none; }
+    .trust-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 36px; font-weight: 300;
+      color: var(--gold); line-height: 1;
+      margin-bottom: 4px;
+    }
+    .trust-label {
+      font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--text-dim); font-weight: 500;
+    }
+
+    /* --- SECTION BASE --- */
+    section { padding: 100px 6vw; }
+    .section-label {
+      font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500; margin-bottom: 16px;
+    }
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(38px, 4.5vw, 60px);
+      font-weight: 300; color: #fff; line-height: 1.1;
+      margin-bottom: 20px;
+    }
+    h2 em { color: var(--gold); font-style: italic; }
+    .section-intro {
+      font-size: 14px; color: var(--text-dim); max-width: 520px;
+      font-weight: 300; letter-spacing: 0.02em;
+    }
+
+    /* --- SERVICES --- */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1px;
+      background: rgba(201,168,76,0.12);
+      border: 1px solid rgba(201,168,76,0.12);
+      margin-top: 60px;
+    }
+    .service-card {
+      background: var(--deep);
+      padding: 44px 36px;
+      transition: background 0.3s;
+      cursor: default;
+    }
+    .service-card:hover { background: var(--surface); }
+    .service-icon {
+      width: 40px; height: 40px; margin-bottom: 24px;
+      color: var(--gold);
+    }
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px; font-weight: 400; color: #fff;
+      margin-bottom: 12px;
+    }
+    .service-desc { font-size: 13px; color: var(--text-dim); line-height: 1.7; }
+
+    /* --- HOW IT WORKS --- */
+    .how-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      margin-top: 60px;
+    }
+    .steps { display: flex; flex-direction: column; gap: 0; }
+    .step {
+      display: flex; gap: 28px;
+      padding: 32px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      align-items: flex-start;
+    }
+    .step:first-child { border-top: 1px solid rgba(255,255,255,0.05); }
+    .step-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 48px; font-weight: 300;
+      color: rgba(201,168,76,0.25);
+      line-height: 1; min-width: 52px;
+    }
+    .step-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px; color: #fff; margin-bottom: 6px;
+    }
+    .step-desc { font-size: 13px; color: var(--text-dim); }
+    .how-visual {
+      aspect-ratio: 4/5;
+      background: var(--surface);
+      border: 1px solid rgba(201,168,76,0.15);
+      display: flex; align-items: center; justify-content: center;
+      position: relative; overflow: hidden;
+    }
+    .how-visual::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 80% at 50% 30%, rgba(201,168,76,0.07), transparent 70%);
+    }
+    .how-visual-text {
+      position: relative; z-index: 1; text-align: center;
+      padding: 40px;
+    }
+    .how-big {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 80px; font-weight: 300; color: var(--gold);
+      line-height: 1; opacity: 0.6;
+    }
+    .how-caption {
+      font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--text-dim); margin-top: 16px;
+    }
+
+    /* --- FLEET --- */
+    .fleet-section { background: var(--charcoal); }
+    .fleet-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 60px;
+    }
+    .fleet-card {
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.05);
+      padding: 40px 32px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+    .fleet-card:hover { border-color: rgba(201,168,76,0.35); }
+    .fleet-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .fleet-card:hover::before { opacity: 1; }
+    .fleet-type {
+      font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500; margin-bottom: 12px;
+    }
+    .fleet-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px; font-weight: 300; color: #fff; margin-bottom: 8px;
+    }
+    .fleet-sub { font-size: 12px; color: var(--text-dim); margin-bottom: 28px; }
+    .fleet-specs {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 16px; margin-bottom: 32px;
+    }
+    .spec-item {}
+    .spec-val {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px; font-weight: 300; color: var(--gold-light);
+    }
+    .spec-key { font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-dim); }
+    .fleet-cta {
+      font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500; text-decoration: none;
+      display: flex; align-items: center; gap: 8px;
+      transition: gap 0.2s;
+    }
+    .fleet-cta:hover { gap: 14px; }
+    .fleet-cta::after { content: '→'; }
+
+    /* --- DESTINATIONS --- */
+    .dest-header {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      margin-bottom: 60px;
+    }
+    .dest-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: rgba(255,255,255,0.04);
+    }
+    .dest-card {
+      background: var(--deep);
+      padding: 36px 30px;
+      cursor: default;
+      transition: background 0.25s;
+    }
+    .dest-card:hover { background: var(--surface); }
+    .dest-route {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px; font-weight: 300; color: #fff; margin-bottom: 6px;
+    }
+    .dest-duration {
+      font-size: 11px; letter-spacing: 0.15em; color: var(--gold);
+      text-transform: uppercase; margin-bottom: 10px;
+    }
+    .dest-desc { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
+
+    /* --- TESTIMONIALS --- */
+    .testimonials-section { background: var(--charcoal); }
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 60px;
+    }
+    .testimonial-card {
+      background: var(--surface);
+      padding: 40px 32px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .stars {
+      color: var(--gold); font-size: 13px; letter-spacing: 3px;
+      margin-bottom: 20px;
+    }
+    .testimonial-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 17px; font-weight: 300; font-style: italic;
+      color: var(--text); line-height: 1.6; margin-bottom: 28px;
+    }
+    .testimonial-author {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 20px;
+    }
+    .author-name { font-size: 13px; font-weight: 500; color: #fff; }
+    .author-title { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+    /* --- FAQ --- */
+    .faq-list { max-width: 780px; margin: 60px auto 0; }
+    .faq-item {
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      padding: 28px 0;
+    }
+    .faq-q {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px; font-weight: 300; color: #fff; margin-bottom: 12px;
+      cursor: pointer;
+      display: flex; justify-content: space-between; align-items: baseline;
+      gap: 16px;
+    }
+    .faq-toggle { color: var(--gold); font-size: 20px; flex-shrink: 0; }
+    .faq-a { font-size: 13px; color: var(--text-dim); line-height: 1.7; }
+
+    /* --- CTA BANNER --- */
+    .cta-banner {
+      background: var(--surface);
+      border-top: 1px solid rgba(201,168,76,0.2);
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+      padding: 90px 6vw;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .cta-banner::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 80% at 50% 50%, rgba(201,168,76,0.06), transparent 70%);
+    }
+    .cta-banner > * { position: relative; z-index: 1; }
+    .cta-banner h2 { margin-bottom: 14px; }
+    .cta-banner p { color: var(--text-dim); font-size: 14px; max-width: 460px; margin: 0 auto 40px; }
+
+    /* --- FOOTER --- */
+    footer {
+      background: var(--obsidian);
+      padding: 60px 6vw 32px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px; margin-bottom: 48px;
+    }
+    .footer-brand { }
+    .footer-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px; font-weight: 600; color: var(--gold);
+      letter-spacing: 0.1em; text-decoration: none;
+      display: block; margin-bottom: 16px;
+    }
+    .footer-logo span { color: var(--text); font-weight: 300; }
+    .footer-tagline { font-size: 13px; color: var(--text-dim); max-width: 260px; line-height: 1.6; }
+    .footer-col h4 {
+      font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500; margin-bottom: 18px;
+    }
+    .footer-col a {
+      display: block; font-size: 13px; color: var(--text-dim);
+      text-decoration: none; margin-bottom: 10px;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: var(--gold-light); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .footer-copy { font-size: 12px; color: var(--text-dim); }
+    .footer-social { display: flex; gap: 18px; }
+    .footer-social a {
+      font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--text-dim); text-decoration: none; transition: color 0.2s;
+    }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      .trust-bar { grid-template-columns: repeat(2,1fr); gap: 1px; background: rgba(201,168,76,0.1); }
+      .trust-item { border-right: none; padding: 20px; }
+      .fleet-grid { grid-template-columns: 1fr; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .dest-grid { grid-template-columns: 1fr 1fr; }
+      .how-inner { grid-template-columns: 1fr; }
+      .how-visual { display: none; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    
+      .footer-grid { grid-template-columns: 1fr; }
+      .dest-header { flex-direction: column; gap: 20px; }
+    }
+  
+  /* ═══════════════════════════════════════
+     MOBILE OPTIMISATION — shared across all pages
+     ═══════════════════════════════════════ */
+  /* Breadcrumb — in-flow, no margin-top needed (body offset handles nav) */
+  .breadcrumb { margin-top: 0 !important; position: static !important; }
+
+
+  /* Base body padding so fixed nav never overlaps content */
+  body { padding-top: 72px; }
+
+  /* Touch-scroll containers */
+  .overflow-scroll-x {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Minimum tap targets */
+  a, button, .btn-primary, .btn-ghost, .nav-cta,
+  .fleet-cta, .inquire-btn, .filter-btn, .cat-tab,
+  .region-tab, .trip-type-btn, .faq-q, .link-card,
+  .dest-card, .explore-card, .related-link {
+    min-height: 44px;
+  }
+  /* Inline anchors like TOC links don't need height constraint */
+  .toc-list a, .prose a, .breadcrumb a, .footer-col a,
+  .footer-social a, .nav-links a { min-height: unset; }
+
+  /* Hamburger — hidden on desktop */
+  .hamburger {
+    display: none;
+    background: none;
+    border: 1px solid rgba(201,168,76,0.4);
+    color: var(--gold);
+    font-size: 20px;
+    width: 44px; height: 44px;
+    align-items: center; justify-content: center;
+    cursor: pointer; flex-shrink: 0;
+    padding: 0;
+  }
+
+  /* ── 768px and below ───────────────────── */
+  @media (max-width: 768px) {
+    body { padding-top: 72px; }
+
+    nav { padding: 0 16px; }
+
+    .hamburger { display: flex; }
+
+    .nav-links {
+      display: none;
+      position: fixed;
+      top: 72px; left: 0; right: 0;
+      background: rgba(5,5,5,0.98);
+      flex-direction: column;
+      padding: 16px 0 24px;
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+      gap: 0;
+      z-index: 99;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links a {
+      padding: 14px 24px;
+      font-size: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      min-height: 48px;
+      display: flex; align-items: center;
+    }
+    .nav-links a:last-child { border-bottom: none; }
+    .nav-cta {
+      margin: 12px 24px 0;
+      text-align: center;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Hero h1 — no overflow */
+    h1 {
+      font-size: clamp(32px, 9vw, 52px) !important;
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+
+    /* Sections get safe side padding */
+    section, .aircraft-section, .compare-section,
+    .faq-section, .listings-section, .alert-section,
+    .region-section, .explainer, .internal-links,
+    .how-inner, .testimonials-section, .cta-banner,
+    .contact-layout, .article-body, .article-sidebar,
+    .explore-strip, .map-section, .page-hero, .article-hero {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+    }
+
+    /* Trust bar → 2 col then 1 col at 480 */
+    .trust-bar {
+      grid-template-columns: 1fr 1fr !important;
+      gap: 1px !important;
+    }
+
+    /* Tables scrollable */
+    .listing-table, .compare-table, .cost-table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+
+    /* Fleet grid */
+    .fleet-grid { grid-template-columns: 1fr !important; }
+
+    /* Destinations grid */
+    .dest-grid { grid-template-columns: 1fr 1fr !important; }
+
+    /* Testimonials */
+    .testimonials-grid { grid-template-columns: 1fr !important; }
+
+    /* Footer grid */
+    .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
+
+    /* How-it-works */
+    .how-inner { grid-template-columns: 1fr !important; }
+    .how-visual { display: none !important; }
+
+    /* Route cards */
+    .route-cards { grid-template-columns: 1fr !important; }
+
+    /* Fleet card horizontal → stack */
+    .aircraft-card { grid-template-columns: 1fr !important; }
+    .aircraft-visual { min-height: 160px !important; }
+
+    /* Specs grid in fleet card */
+    .specs-grid { grid-template-columns: 1fr 1fr !important; }
+
+    /* Alert form */
+    .form-row { grid-template-columns: 1fr !important; }
+
+    /* Contact layout */
+    .contact-layout { grid-template-columns: 1fr !important; }
+    .form-grid { grid-template-columns: 1fr !important; }
+
+    /* Article layout */
+    .article-layout { grid-template-columns: 1fr !important; }
+    .article-body { border-right: none !important; }
+    .article-sidebar { position: static !important; padding: 0 16px 48px !important; }
+
+    /* Explainer grid */
+    .explainer-grid { grid-template-columns: 1fr !important; }
+    .savings-visual { display: none !important; }
+
+    /* Alert inner */
+    .alert-inner { grid-template-columns: 1fr !important; }
+
+    /* Hero actions */
+    .hero-actions, .cta-actions, .submit-row {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+    .btn-primary, .btn-ghost {
+      width: 100% !important;
+      text-align: center !important;
+      display: block !important;
+      box-sizing: border-box !important;
+    }
+
+    /* Saving badge hidden */
+    .saving-badge { display: none !important; }
+
+    /* Explore strip */
+    .explore-strip { grid-template-columns: 1fr !important; gap: 1px !important; }
+
+    /* Link grid */
+    .link-grid { grid-template-columns: 1fr !important; }
+
+    /* Stats row */
+    .stats-row { gap: 20px !important; flex-wrap: wrap !important; }
+
+    /* Compare table heading row */
+    .category-heading { flex-wrap: wrap !important; gap: 10px !important; }
+    .cat-price-from { margin-left: 0 !important; }
+
+    /* Dest header */
+    .dest-header { flex-direction: column !important; gap: 16px !important; }
+    .dest-header .btn-ghost { width: 100% !important; text-align: center !important; }
+
+    /* Hero saving badge */
+    .hero-inner { grid-template-columns: 1fr !important; }
+
+    /* Filter bar scrollable */
+    .filter-bar {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      flex-wrap: nowrap !important;
+      padding-bottom: 4px;
+    }
+    .filter-btn { flex-shrink: 0; }
+
+    /* Category / region tab bars scrollable */
+    .category-bar, .region-tabs {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      padding-left: 16px !important;
+    }
+
+    /* TOC */
+    .toc { margin-left: 0 !important; margin-right: 0 !important; }
+
+    /* Article meta wrap */
+    .article-meta { gap: 10px !important; }
+    .meta-divider { display: none !important; }
+
+    /* Breadcrumb */
+    .breadcrumb { padding: 14px 16px !important; flex-wrap: wrap !important; }
+
+    /* Footer grid on mobile */
+    .footer-bottom { flex-direction: column !important; align-items: flex-start !important; gap: 12px !important; }
+
+    /* Sidebar CTA full width */
+    .sidebar-cta { max-width: 100% !important; }
+
+    /* Pull quote */
+    .pull-quote { padding: 16px 18px !important; }
+    .pull-quote p { font-size: 18px !important; }
+
+    /* Step numbers in how-it-works */
+    .step { gap: 16px !important; }
+
+    /* Trip type buttons */
+    .trip-type-row { flex-wrap: wrap !important; }
+    .trip-type-btn { flex: none !important; width: calc(33.333% - 8px) !important; min-height: 44px !important; }
+
+    /* Aircraft footer in fleet */
+    .aircraft-footer { flex-wrap: wrap !important; gap: 12px !important; }
+    .aircraft-hourly { margin-left: 0 !important; }
+  }
+
+  /* ── 480px and below ───────────────────── */
+  @media (max-width: 480px) {
+    /* Everything min 13px */
+    body, p, td, th, li, input, select, textarea, label,
+    .service-desc, .step-desc, .fleet-sub, .dest-sub,
+    .faq-a, .route-desc, .author-bio, .footer-tagline,
+    .trust-desc, .perk-desc, .contact-info-sub {
+      font-size: 13px !important;
+    }
+
+    /* Trust bar 1 col */
+    .trust-bar { grid-template-columns: 1fr !important; }
+    .trust-item { border-right: none !important; border-bottom: 1px solid rgba(255,255,255,0.05) !important; }
+
+    /* Dest grid 1 col */
+    .dest-grid { grid-template-columns: 1fr !important; }
+
+    /* Footer 1 col */
+    .footer-grid { grid-template-columns: 1fr !important; }
+
+    /* Hero stat number size */
+    .trust-num, .stat-num, .how-big { font-size: 28px !important; }
+
+    /* Fleet specs 2 col stays fine, keep it */
+
+    /* Listing table mobile — card view */
+    .listing-table thead { display: none; }
+    .listing-table tbody tr {
+      display: block;
+      border: 1px solid rgba(255,255,255,0.06);
+      margin-bottom: 14px;
+      padding: 14px;
+      background: var(--surface);
+    }
+    .listing-table tbody td {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      white-space: normal !important;
+      font-size: 13px !important;
+    }
+    .listing-table tbody td:last-child { border-bottom: none; padding-top: 12px; }
+    .listing-table tbody td::before {
+      content: attr(data-label);
+      font-size: 9px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      flex-shrink: 0;
+      margin-right: 8px;
+    }
+    .route-cell { flex-direction: row; }
+
+    /* Trip type buttons full row */
+    .trip-type-btn { width: 100% !important; }
+
+    /* Article TOC full width */
+    .toc { padding: 20px 16px !important; }
+
+    /* Sidebar related articles */
+    .related-articles { padding: 0 !important; }
+
+    /* Author box stack */
+    .author-box { flex-direction: column !important; gap: 14px !important; }
+  }
+
+</style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav aria-label="Main navigation">
+  <a href="/" class="nav-logo">Jet<span>Lux</span></a>
+  <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">☰</button>
+  <div class="nav-links" id="main-nav">
+    <a href="#services">Services</a>
+    <a href="#fleet">Fleet</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="nav-cta">Request a Quote</a>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<header class="hero" role="banner">
+  <div class="hero-bg"></div>
+  <div class="hero-line"></div>
+  <svg class="hero-jet" viewBox="0 0 800 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M760 160 L520 120 L440 60 L400 80 L460 130 L120 100 L20 155 L120 160 L80 200 L180 190 L200 210 L380 210 L380 180 L460 175 L400 240 L440 255 L520 195 Z" fill="white" opacity="0.9"/>
+    <path d="M120 100 L80 70 L60 80 L100 105 Z" fill="white"/>
+    <path d="M700 150 L760 155 L760 165 L700 170 Z" fill="white" opacity="0.4"/>
+  </svg>
+  <div class="hero-content">
+    <p class="hero-label">Albania's Premier Private Jet Charter</p>
+    <h1>Fly <em>Beyond</em><br />First Class</h1>
+    <p class="hero-sub">JetLux is Albania's premier private jet charter service, flying worldwide from Tirana International Airport (TIA). More privacy, more flexibility, more luxury — on your schedule, 24/7.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Request a Charter</a>
+      <a href="#fleet" class="btn-ghost">Explore Fleet</a>
+    </div>
+  </div>
+</header>
+
+<!-- ========== TRUST BAR ========== -->
+<div class="trust-bar" aria-label="Trust statistics">
+  <div class="trust-item">
+    <div class="trust-num">500<span style="font-size:18px">+</span></div>
+    <div class="trust-label">Flights Completed</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-num">24/7</div>
+    <div class="trust-label">Concierge Support</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-num">180<span style="font-size:18px">+</span></div>
+    <div class="trust-label">Global Destinations</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-num">4h<span style="font-size:18px"></span></div>
+    <div class="trust-label">Minimum Notice</div>
+  </div>
+</div>
+
+<!-- ========== SERVICES ========== -->
+<section id="services" aria-labelledby="services-heading">
+  <p class="section-label">What We Offer</p>
+  <h2 id="services-heading">Private Aviation <em>Services</em></h2>
+  <p class="section-intro">From one-way charters to full jet memberships, JetLux provides every layer of private aviation access.</p>
+  <div class="services-grid">
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+        <path d="M36 20 L24 14 L20 6 L17 8 L20 15 L5 13 L2 19 L5 20 L3 25 L9 24 L10 27 L18 27 L18 22 L21 20 L18 30 L20 32 L24 25 Z"/>
+      </svg>
+      <h3>On-Demand Charter</h3>
+      <p class="service-desc">Book your private jet with as little as 4 hours notice. Choose from our vetted fleet of light, midsize, and heavy aircraft for any route worldwide.</p>
+    </div>
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+        <rect x="4" y="8" width="32" height="22" rx="2"/>
+        <path d="M4 14 L36 14"/>
+        <path d="M10 22 L16 22 M20 22 L26 22 M10 26 L14 26"/>
+      </svg>
+      <h3>Empty Leg Deals</h3>
+      <p class="service-desc">Access repositioning flights at up to 75% off standard rates. Our real-time empty leg inventory updates daily — luxury at an exceptional value.</p>
+    </div>
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+        <circle cx="20" cy="20" r="15"/>
+        <path d="M20 8 L20 20 L28 20"/>
+        <circle cx="20" cy="20" r="2" fill="currentColor"/>
+      </svg>
+      <h3>Jet Membership</h3>
+      <p class="service-desc">Our JetLux card program offers guaranteed availability, fixed hourly rates, and priority booking — ideal for frequent flyers seeking total peace of mind.</p>
+    </div>
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+        <path d="M8 30 L8 10 L22 6 L32 10 L32 30 L22 34 Z"/>
+        <path d="M22 6 L22 34 M8 18 L32 18"/>
+      </svg>
+      <h3>Corporate Aviation</h3>
+      <p class="service-desc">Tailored solutions for businesses — recurring contracts, multi-leg trips, and dedicated account management to keep your team moving efficiently.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOW IT WORKS ========== -->
+<section id="about" style="background: var(--charcoal);" aria-labelledby="how-heading">
+  <p class="section-label">The Process</p>
+  <h2 id="how-heading">How <em>JetLux</em> Works</h2>
+  <div class="how-inner">
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div>
+          <div class="step-title">Request a Quote</div>
+          <p class="step-desc">Share your route, date, passenger count and preferences. Our aviation team responds within minutes with tailored aircraft options.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div>
+          <div class="step-title">Personalise Your Flight</div>
+          <p class="step-desc">Choose catering, ground transportation, crew briefings, and special requests. JetLux coordinates every detail so you don't have to.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div>
+          <div class="step-title">Arrive &amp; Depart on Your Terms</div>
+          <p class="step-desc">Skip commercial terminals. Arrive 15 minutes before your flight, board directly, and land at private terminals closer to your destination.</p>
+        </div>
+      </div>
+    </div>
+    <div class="how-visual" aria-hidden="true">
+      <div class="how-visual-text">
+        <div class="how-big">JL</div>
+        <div class="how-caption">Your World. Your Schedule.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FLEET ========== -->
+<section id="fleet" aria-labelledby="fleet-heading">
+  <p class="section-label">Our Aircraft</p>
+  <h2 id="fleet-heading">The <em>Fleet</em></h2>
+  <p class="section-intro">Every aircraft in the JetLux network is certified, inspected, and crewed by elite aviation professionals.</p>
+  <div class="fleet-grid">
+    <div class="fleet-card">
+      <div style="width:100%;height:160px;overflow:hidden;margin-bottom:20px;border-bottom:1px solid rgba(255,255,255,0.06);"><img src="https://www.jetcraft.com/wp-content/uploads/2015/04/Cessna-CJ4-Exterior-JS.jpg" alt="Cessna Citation CJ4 light jet charter — JetLux" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;" /></div>
+      <p class="fleet-type">Light Jet</p>
+      <h3 class="fleet-name">Cessna Citation CJ4</h3>
+      <p class="fleet-sub">Perfect for short-haul trips and regional business travel.</p>
+      <div class="fleet-specs">
+        <div class="spec-item">
+          <div class="spec-val">7</div>
+          <div class="spec-key">Passengers</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">2,165nm</div>
+          <div class="spec-key">Range</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">451kts</div>
+          <div class="spec-key">Cruise Speed</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">45,000ft</div>
+          <div class="spec-key">Ceiling</div>
+        </div>
+      </div>
+      <a href="#contact" class="fleet-cta">Charter This Jet</a>
+    </div>
+    <div class="fleet-card" style="border-color: rgba(201,168,76,0.3);">
+      <div style="width:100%;height:160px;overflow:hidden;margin-bottom:20px;border-bottom:1px solid rgba(255,255,255,0.06);"><img src="https://cdn.prod.website-files.com/6479c007a0f97cbf8f3ca330/65e0cd84465b5cd33920d082_65ca12bc81dde2ccbaca0b09_Hawker-900XP%2520EXT.webp" alt="Hawker 900XP midsize jet charter — JetLux" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;" /></div>
+      <p class="fleet-type" style="display:flex;justify-content:space-between;">Midsize Jet <span style="font-size:9px;background:rgba(201,168,76,0.12);color:var(--gold);padding:3px 10px;letter-spacing:0.15em;">MOST POPULAR</span></p>
+      <h3 class="fleet-name">Hawker 900XP</h3>
+      <p class="fleet-sub">Ideal balance of cabin comfort and transcontinental range.</p>
+      <div class="fleet-specs">
+        <div class="spec-item">
+          <div class="spec-val">9</div>
+          <div class="spec-key">Passengers</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">3,012nm</div>
+          <div class="spec-key">Range</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">447kts</div>
+          <div class="spec-key">Cruise Speed</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">41,000ft</div>
+          <div class="spec-key">Ceiling</div>
+        </div>
+      </div>
+      <a href="#contact" class="fleet-cta">Charter This Jet</a>
+    </div>
+    <div class="fleet-card">
+      <div style="width:100%;height:160px;overflow:hidden;margin-bottom:20px;border-bottom:1px solid rgba(255,255,255,0.06);"><img src="https://images.aircharterservice.com/global/aircraft-guide/private-charter/gulfstream-g450.jpeg" alt="Gulfstream G450 heavy jet charter — JetLux" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;" /></div>
+      <p class="fleet-type">Heavy Jet</p>
+      <h3 class="fleet-name">Gulfstream G550</h3>
+      <p class="fleet-sub">Intercontinental capability with a full stand-up cabin.</p>
+      <div class="fleet-specs">
+        <div class="spec-item">
+          <div class="spec-val">16</div>
+          <div class="spec-key">Passengers</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">6,750nm</div>
+          <div class="spec-key">Range</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">488kts</div>
+          <div class="spec-key">Cruise Speed</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-val">51,000ft</div>
+          <div class="spec-key">Ceiling</div>
+        </div>
+      </div>
+      <a href="#contact" class="fleet-cta">Charter This Jet</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== DESTINATIONS ========== -->
+<section id="destinations" style="background: var(--charcoal);" aria-labelledby="dest-heading">
+  <div class="dest-header">
+    <div>
+      <p class="section-label">Popular Routes</p>
+      <h2 id="dest-heading">Where Will You <em>Fly?</em></h2>
+    </div>
+    <a href="#contact" class="btn-ghost">View All Routes</a>
+  </div>
+  <div class="dest-grid">
+    <article class="dest-card">
+      <h3 class="dest-route">Tirana → Rome</h3>
+      <p class="dest-duration">~1h 30m &nbsp;·&nbsp; From €5,500</p>
+      <p class="dest-desc">Direct from Tirana International (TIA) to Rome Ciampino or Fiumicino FBO. The most popular JetLux route — perfect for business and leisure.</p>
+    </article>
+    <article class="dest-card">
+      <h3 class="dest-route">Tirana → London</h3>
+      <p class="dest-duration">~2h 50m &nbsp;·&nbsp; From €16,000</p>
+      <p class="dest-desc">Depart TIA and arrive at Farnborough (FAB) or Luton — steps from Central London. A flagship JetLux business corridor.</p>
+    </article>
+    <article class="dest-card">
+      <h3 class="dest-route">Tirana → Dubai</h3>
+      <p class="dest-duration">~5h 30m &nbsp;·&nbsp; From €34,000</p>
+      <p class="dest-desc">Nonstop heavy jet service from TIA to Al Maktoum (DWC). Ideal for business delegations and luxury travellers heading to the Gulf.</p>
+    </article>
+    <article class="dest-card">
+      <h3 class="dest-route">Tirana → Istanbul</h3>
+      <p class="dest-duration">~1h 10m &nbsp;·&nbsp; From €4,800</p>
+      <p class="dest-desc">The fastest private jet link between Albania and Turkey. Depart TIA and land at Istanbul Atatürk or Sabiha Gökçen FBO.</p>
+    </article>
+    <article class="dest-card">
+      <h3 class="dest-route">Tirana → Paris</h3>
+      <p class="dest-duration">~2h 20m &nbsp;·&nbsp; From €12,000</p>
+      <p class="dest-desc">Depart TIA and arrive at Le Bourget (LBG) — Paris's private jet hub. Fashion week, business, and leisure departures year-round.</p>
+    </article>
+    <article class="dest-card">
+      <h3 class="dest-route">Tirana → Corfu</h3>
+      <p class="dest-duration">~30min &nbsp;·&nbsp; From €2,200</p>
+      <p class="dest-desc">The preferred route for ski season. Land at Samedan Airport — the highest commercial airport in Europe.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="testimonials-section" aria-labelledby="reviews-heading">
+  <p class="section-label">Client Voices</p>
+  <h2 id="reviews-heading">What Our Clients <em>Say</em></h2>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"JetLux transformed how I think about business travel. Four hours notice for a London–Geneva trip, and everything was immaculate."</p>
+      <div class="testimonial-author">
+        <div class="author-name">Alexandra W.</div>
+        <div class="author-title">CEO, Private Equity Firm — London</div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"The empty leg alert system saved us thousands. We've flown JetLux six times this year and the service never disappoints."</p>
+      <div class="testimonial-author">
+        <div class="author-name">Marcus T.</div>
+        <div class="author-title">Managing Partner — New York</div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"From the catering to the ground transport on arrival, JetLux handled everything. I didn't lift a finger. Pure luxury, pure ease."</p>
+      <div class="testimonial-author">
+        <div class="author-name">Isabelle D.</div>
+        <div class="author-title">Film Producer — Los Angeles</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section aria-labelledby="faq-heading">
+  <p class="section-label" style="text-align:center;">Questions & Answers</p>
+  <h2 id="faq-heading" style="text-align:center;">Frequently Asked <em>Questions</em></h2>
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-q"><span>How much does it cost to charter a private jet?</span><span class="faq-toggle">+</span></div>
+      <p class="faq-a">Private jet charter costs vary based on aircraft type, distance, and availability. Light jets start from $3,000/hr, midsize jets from $5,000/hr, and heavy jets from $9,000/hr. Contact JetLux for a precise quote based on your specific itinerary.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>How far in advance do I need to book?</span><span class="faq-toggle">+</span></div>
+      <p class="faq-a">JetLux can arrange a charter with as little as 4 hours notice. For peak seasons and popular routes, we recommend 48–72 hours to ensure ideal aircraft availability and catering preparation.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>What are empty leg flights?</span><span class="faq-toggle">+</span></div>
+      <p class="faq-a">Empty legs are repositioning flights — aircraft traveling to their next booking with no passengers. JetLux lists these at up to 75% off standard charter rates. Sign up for alerts to access deals as they appear.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>Which destinations does JetLux serve?</span><span class="faq-toggle">+</span></div>
+      <p class="faq-a">JetLux operates globally, covering over 40,000 airports worldwide. Popular routes span North America, Europe, the Middle East, and the Caribbean — but if there's an airstrip, we can get you there.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>Is private jet charter safe?</span><span class="faq-toggle">+</span></div>
+      <p class="faq-a">Absolutely. JetLux exclusively works with FAA and EASA-certified operators. All aircraft undergo rigorous maintenance schedules, and our pilots hold ATP certificates with thousands of flight hours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA BANNER ========== -->
+<section class="cta-banner" id="contact" aria-labelledby="cta-heading">
+  <p class="section-label">Ready to Fly?</p>
+  <h2 id="cta-heading">Your Next Journey<br /><em>Starts Here</em></h2>
+  <p>Tell us your route and we'll match you with the perfect aircraft within minutes. No obligation, no commitment.</p>
+  <a href="mailto:charter@jetlux.al" class="btn-primary">Request a Charter Quote</a>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">Jet<span>Lux</span></a>
+      <p class="footer-tagline">Albania's premier private jet charter service. Based in Tirana, flying worldwide. Available 24/7.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">On-Demand Charter</a>
+      <a href="#services">Empty Leg Flights</a>
+      <a href="#services">Jet Membership</a>
+      <a href="#services">Corporate Aviation</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About JetLux</a>
+      <a href="#">Safety Standards</a>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+355691234567">+355 69 123 4567</a>
+      <a href="mailto:charter@jetlux.al">charter@jetlux.al</a>
+      <a href="#">Tirana · London · Dubai</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2026 JetLux. All rights reserved. &nbsp;·&nbsp; <a href="#" style="color:var(--text-dim);text-decoration:none;">Privacy Policy</a> &nbsp;·&nbsp; <a href="#" style="color:var(--text-dim);text-decoration:none;">Terms</a></p>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const answer = q.nextElementSibling;
+      const toggle = q.querySelector('.faq-toggle');
+      const open = answer.style.display === 'block';
+      answer.style.display = open ? 'none' : 'block';
+      toggle.textContent = open ? '+' : '−';
+    });
+  });
+  document.querySelectorAll('.faq-a').forEach(a => { a.style.display = 'none'; });
+
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.background = window.scrollY > 60 ? 'rgba(5,5,5,0.97)' : '';
+  });
+</script>
+
+<script>
+(function() {
+  var btn = document.querySelector('.hamburger');
+  var links = document.querySelector('.nav-links');
+  if (!btn || !links) return;
+  btn.addEventListener('click', function() {
+    var open = links.classList.toggle('open');
+    btn.textContent = open ? '✕' : '☰';
+    btn.setAttribute('aria-expanded', open);
+  });
+  // Close menu when a link is tapped
+  links.querySelectorAll('a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      links.classList.remove('open');
+      btn.textContent = '☰';
+      btn.setAttribute('aria-expanded', false);
+    });
+  });
+  // Close on outside click
+  document.addEventListener('click', function(e) {
+    if (!btn.contains(e.target) && !links.contains(e.target)) {
+      links.classList.remove('open');
+      btn.textContent = '☰';
+      btn.setAttribute('aria-expanded', false);
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

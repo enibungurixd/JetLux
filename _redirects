@@ -1,0 +1,10 @@
+# www → apex redirect
+https://www.jetlux.al/* https://jetlux.al/:splat 301
+
+# Clean URL trailing slash normalisation
+/fleet /fleet/ 301
+/empty-legs /empty-legs/ 301
+/destinations /destinations/ 301
+/contact /contact/ 301
+/journal /journal/ 301
+/journal/private-jet-charter-cost-2026 /journal/private-jet-charter-cost-2026/ 301
