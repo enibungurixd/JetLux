@@ -4,4 +4,4 @@ pages_build_output_dir = "."
 
 [[kv_namespaces]]
 binding = "EMPTY_LEGS"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "8e61cd4968414009bd354dee75317659"
