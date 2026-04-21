@@ -110,7 +110,7 @@
     }
 
     /* NAV */
-    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 0 6vw; height: 72px; background: rgba(5,5,5,0.97); border-bottom: 0.5px solid rgba(201,168,76,0.15); }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 0 6vw; height: 72px; background: linear-gradient(to bottom, rgba(5,5,5,0.97) 0%, rgba(5,5,5,0) 100%); border-bottom: 0.5px solid rgba(201,168,76,0.15); }
     .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 600; color: var(--gold); letter-spacing: 0.12em; text-decoration: none; }
     .nav-logo span { color: var(--text); font-weight: 300; }
     .nav-links { display: flex; gap: 36px; align-items: center; }
@@ -1032,6 +1032,13 @@
       document.querySelectorAll('.region-tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
     });
+  });
+</script>
+
+<script>
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.background = window.scrollY > 60 ? 'rgba(5,5,5,0.97)' : '';
   });
 </script>
 
