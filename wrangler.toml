@@ -1,0 +1,7 @@
+name = "jetlux-albania"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "."
+
+[[kv_namespaces]]
+binding = "EMPTY_LEGS"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"

@@ -691,7 +691,7 @@
   </div>
   <div class="listings-meta">
     <span class="live-dot" aria-hidden="true"></span>
-    Updated in real time &nbsp;·&nbsp; 8 flights currently available &nbsp;·&nbsp; Prices include all fees
+    Updated in real time &nbsp;·&nbsp; <span id="flights-count">Loading…</span> &nbsp;·&nbsp; Prices include all fees
   </div>
 
   <div class="filter-bar" role="group" aria-label="Filter flights">
@@ -715,158 +715,9 @@
         <th scope="col"></th>
       </tr>
     </thead>
-    <tbody>
+    <tbody id="flights-tbody">
       <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">New York</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">Miami</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">TEB → OPF · ~2h 30m</span>
-        </td>
-        <td data-label="Date">Apr 19, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 10:00</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Citation CJ4</span></td>
-        <td data-label="Pax" style="color:var(--text);">7</td>
-        <td data-label="Saving"><span class="saving-tag">Save 68%</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$4,800</div>
-          <span class="price-was">$15,000</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
-      </tr>
-      <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">London</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">Dubai</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">FBO → DXB · ~7h</span>
-        </td>
-        <td data-label="Date">Apr 21, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 08:30</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Gulfstream G450</span></td>
-        <td data-label="Pax" style="color:var(--text);">14</td>
-        <td data-label="Saving"><span class="saving-tag">Save 72%</span> <span class="status-hot">HOT</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$13,500</div>
-          <span class="price-was">$48,000</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
-      </tr>
-      <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">Los Angeles</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">Las Vegas</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">VNY → HND · ~55m</span>
-        </td>
-        <td data-label="Date">Apr 22, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 14:15</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Phenom 300E</span></td>
-        <td data-label="Pax" style="color:var(--text);">8</td>
-        <td data-label="Saving"><span class="saving-tag">Save 60%</span> <span class="status-new">NEW</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$1,600</div>
-          <span class="price-was">$4,000</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
-      </tr>
-      <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">Paris</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">Monaco</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">LBG → NCE · ~1h</span>
-        </td>
-        <td data-label="Date">Apr 24, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 11:00</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Hawker 900XP</span></td>
-        <td data-label="Pax" style="color:var(--text);">9</td>
-        <td data-label="Saving"><span class="saving-tag">Save 65%</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$3,300</div>
-          <span class="price-was">$9,400</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
-      </tr>
-      <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">Miami</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">Bahamas</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">OPF → NAS · ~35m</span>
-        </td>
-        <td data-label="Date">Apr 25, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 09:45</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Citation CJ4</span></td>
-        <td data-label="Pax" style="color:var(--text);">7</td>
-        <td data-label="Saving"><span class="saving-tag">Save 55%</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$1,900</div>
-          <span class="price-was">$4,200</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
-      </tr>
-      <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">Geneva</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">London</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">GVA → FBO · ~2h</span>
-        </td>
-        <td data-label="Date">Apr 27, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 16:00</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Gulfstream G550</span></td>
-        <td data-label="Pax" style="color:var(--text);">16</td>
-        <td data-label="Saving"><span class="saving-tag">Save 70%</span> <span class="status-hot">HOT</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$7,200</div>
-          <span class="price-was">$24,000</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
-      </tr>
-      <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">New York</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">Chicago</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">TEB → MDW · ~2h 10m</span>
-        </td>
-        <td data-label="Date">Apr 28, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 07:30</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Phenom 300E</span></td>
-        <td data-label="Pax" style="color:var(--text);">8</td>
-        <td data-label="Saving"><span class="saving-tag">Save 58%</span> <span class="status-new">NEW</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$3,100</div>
-          <span class="price-was">$7,400</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
-      </tr>
-      <tr>
-        <td data-label="Route">
-          <div class="route-cell">
-            <span class="route-from">Dubai</span>
-            <span class="route-arrow">→</span>
-            <span class="route-to">Riyadh</span>
-          </div>
-          <span style="font-size:11px;color:var(--text-dim);">DXB → RUH · ~1h 20m</span>
-        </td>
-        <td data-label="Date">Apr 29, 2026<br/><span style="font-size:11px;color:var(--text-dim);">Departs 13:00</span></td>
-        <td data-label="Aircraft"><span class="aircraft-pill">Hawker 900XP</span></td>
-        <td data-label="Pax" style="color:var(--text);">9</td>
-        <td data-label="Saving"><span class="saving-tag">Save 63%</span></td>
-        <td data-label="Price">
-          <div class="price-cell">$4,100</div>
-          <span class="price-was">$11,000</span>
-        </td>
-        <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
+        <td colspan="7" style="text-align:center;padding:48px 16px;color:var(--text-dim);">Loading available flights…</td>
       </tr>
     </tbody>
   </table></div>
@@ -1046,18 +897,100 @@
     });
   });
 
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-    });
-  });
-
   document.querySelectorAll('.bar-fill').forEach(bar => {
     const w = bar.style.width;
     bar.style.width = '0';
     setTimeout(() => { bar.style.width = w; }, 400);
   });
+
+  // ── Empty Legs dynamic rendering ──────────────────────────────────────────
+
+  const REGION_FILTERS = ['Americas', 'Europe', 'Middle East', 'Asia', 'Africa'];
+  const CLASS_FILTERS  = ['Light Jets', 'Midsize Jets', 'Heavy Jets', 'Ultra-Long Range'];
+
+  function formatDate(d) {
+    return new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  function formatPrice(n) {
+    return '$' + Number(n).toLocaleString('en-US');
+  }
+
+  function flightRow(f) {
+    const badge = f.badge === 'HOT'
+      ? ' <span class="status-hot">HOT</span>'
+      : f.badge === 'NEW'
+      ? ' <span class="status-new">NEW</span>'
+      : '';
+    const sub = (f.from_code && f.to_code)
+      ? `<span style="font-size:11px;color:var(--text-dim);">${f.from_code} → ${f.to_code}${f.duration ? ' · ' + f.duration : ''}</span>`
+      : '';
+    return `<tr data-region="${f.region || ''}" data-class="${f.jet_class || ''}">
+      <td data-label="Route">
+        <div class="route-cell">
+          <span class="route-from">${f.from}</span>
+          <span class="route-arrow">→</span>
+          <span class="route-to">${f.to}</span>
+        </div>${sub}
+      </td>
+      <td data-label="Date">${formatDate(f.date)}<br/><span style="font-size:11px;color:var(--text-dim);">Departs ${f.departs}</span></td>
+      <td data-label="Aircraft"><span class="aircraft-pill">${f.aircraft}</span></td>
+      <td data-label="Pax" style="color:var(--text);">${f.pax}</td>
+      <td data-label="Saving"><span class="saving-tag">Save ${f.saving_pct}%</span>${badge}</td>
+      <td data-label="Price">
+        <div class="price-cell">${formatPrice(f.price)}</div>
+        <span class="price-was">${formatPrice(f.original_price)}</span>
+      </td>
+      <td data-label=""><a href="/contact/" class="inquire-btn">Inquire</a></td>
+    </tr>`;
+  }
+
+  function renderFlights(flights) {
+    const tbody = document.getElementById('flights-tbody');
+    tbody.innerHTML = flights.length
+      ? flights.map(flightRow).join('')
+      : '<tr><td colspan="7" style="text-align:center;padding:48px 16px;color:var(--text-dim);">No flights match this filter.</td></tr>';
+  }
+
+  function wireFilters(all) {
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const label = btn.textContent.trim();
+        if (label === 'All Routes') {
+          renderFlights(all);
+        } else if (REGION_FILTERS.includes(label)) {
+          renderFlights(all.filter(f => f.region === label));
+        } else if (CLASS_FILTERS.includes(label)) {
+          renderFlights(all.filter(f => f.jet_class === label));
+        }
+      });
+    });
+  }
+
+  async function loadFlights() {
+    const tbody = document.getElementById('flights-tbody');
+    const counter = document.getElementById('flights-count');
+    try {
+      const res = await fetch('/api/empty-legs');
+      if (!res.ok) throw new Error(res.status);
+      const flights = await res.json();
+      if (!flights.length) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:48px 16px;color:var(--text-dim);">No flights currently available. Sign up for alerts below.</td></tr>';
+        if (counter) counter.textContent = '0 flights currently available';
+        return;
+      }
+      renderFlights(flights);
+      wireFilters(flights);
+      if (counter) counter.textContent = `${flights.length} flight${flights.length === 1 ? '' : 's'} currently available`;
+    } catch {
+      tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:48px 16px;color:var(--text-dim);">Unable to load flights. Please try again shortly.</td></tr>';
+      if (counter) counter.textContent = 'check back soon';
+    }
+  }
+
+  loadFlights();
 </script>
 
 <script>
