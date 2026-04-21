@@ -117,7 +117,7 @@
     .nav-links a { text-decoration: none; color: var(--text-dim); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 500; transition: color 0.2s; }
     .nav-links a:hover { color: var(--gold); }
     .nav-links a.active { color: var(--gold); }
-    .nav-cta { background: transparent; border: 1px solid var(--gold); color: var(--gold) !important; padding: 8px 22px; font-size: 10px !important; letter-spacing: 0.2em; transition: all 0.25s; }
+    .nav-cta { background: transparent; border: 1px solid var(--gold); color: var(--gold) !important; padding: 8px 22px; font-size: 10px !important; letter-spacing: 0.2em; text-transform: uppercase; cursor: pointer; transition: all 0.25s; }
     .nav-cta:hover { background: var(--gold) !important; color: var(--obsidian) !important; }
 
     /* BREADCRUMB */
@@ -541,30 +541,6 @@
   }
 
 
-  /* NAV-LINKS DESKTOP FORCE — ensures links always show above 768px */
-  @media (min-width: 769px) {
-    .nav-links {
-      display: flex !important;
-      position: static !important;
-      flex-direction: row !important;
-      background: transparent !important;
-      padding: 0 !important;
-      border: none !important;
-      gap: 36px !important;
-      align-items: center !important;
-      width: auto !important;
-      height: auto !important;
-    }
-    .nav-links a {
-      padding: 0 !important;
-      border-bottom: none !important;
-      min-height: unset !important;
-      font-size: 11px !important;
-    }
-    .hamburger {
-      display: none !important;
-    }
-  }
 
 </style>
 </head>
